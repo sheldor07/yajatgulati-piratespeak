@@ -4,15 +4,17 @@
 
 body{
     font-family: 'Cinzel', serif;
-    background-color: var(--primary-colour)
+    background-color: #cccccc;
    
-
+    background-image: url("pirate-ship.jpg");
+    background-size: cover;
+    
 }
 
 
 
 :root{
-    --primary-colour:#818CF8;;
+    --primary-colour:#1E40AF;;
     --secondary-colour: black;
  
 }
@@ -27,7 +29,7 @@ body{
     font-size:100px;
     text-align: center;
     font-weight:bold;
-    background-color: var(--primary-colour);
+    background-color:var(--primary-colour);
 }
 
 
@@ -49,37 +51,40 @@ body{
     background-color:var(--primary-colour);
     display:block;
     margin:auto;
-    margin-top:5rem;
+    margin-top:2.5rem;
     padding:1rem;
     font-family: 'Josefin Sans', sans-serif;
+    font-size:large;
 }
 
-.output-heading{
-    text-align:center;
-}
+
 .output-div{
     display:block;
     margin:auto;
     width:600px;
     height:150px;
-    margin-top:5rem;
+    margin-top:2.5rem;
     border-radius:9px;
     border-color: black;
     border-width:10px;
     background-color:white;
 }
 button:hover{
-    background-color: var(--primary-colour);
-    color: var(--secondary-colour);
+    background-color: var(--secondary-colour);
+    color: var(--primary-colour);
 }
 .para{
-    font-size:25px;
-    margin-top:1-rem;
-    text-align:center;
+    display:block;
+    font-size:30px;
+    margin-top:1rem;
+    margin:auto;
+    width: 35vw;
+    text-align: justify;
+    color: white;
 }
 .footer
 {
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
     padding: 1rem;
