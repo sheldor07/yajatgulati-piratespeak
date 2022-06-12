@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Josefin+Sans:ital,wght@1,400;1,600&family=Montserrat:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Cinzel', serif;
+    background-color: var(--primary-colour)
+   
+
+}
+
+
+
+:root{
+    --primary-colour:#818CF8;;
+    --secondary-colour: black;
+ 
+}
+
+
+
+
+
+.header-heading{
+   
+    padding:0rem, 5rem;
+    font-size:100px;
+    text-align: center;
+    font-weight:bold;
+    background-color: var(--primary-colour);
+}
+
+
+.text-area{
+    display:block;
+    margin:auto;
+    width:600px;
+    height:150px;
+    margin-top:1rem;
+    border-radius:9px;
+    border-color: black;
+    border-width:10px;
+}
+::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:large;
+}
+.button{
+    background-color:var(--primary-colour);
+    display:block;
+    margin:auto;
+    margin-top:5rem;
+    padding:1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.output-heading{
+    text-align:center;
+}
+.output-div{
+    display:block;
+    margin:auto;
+    width:600px;
+    height:150px;
+    margin-top:5rem;
+    border-radius:9px;
+    border-color: black;
+    border-width:10px;
+    background-color:white;
+}
+button:hover{
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
+}
+.para{
+    font-size:25px;
+    margin-top:1-rem;
+    text-align:center;
+}
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-colour);
+    text-align: center;
+}
+
+
